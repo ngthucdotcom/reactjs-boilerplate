@@ -1,0 +1,1 @@
+docker run -d --name=reactjs-template -v /home/$USER/build:/usr/share/nginx/html -p 80:80 -e TZ=Asia/Ho_Chi_Minh --restart=always reactjs-template:1.0

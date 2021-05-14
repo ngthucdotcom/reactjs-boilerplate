@@ -1,0 +1,1 @@
+docker build --build-arg configuration=development -t reactjs-template:1.0 .
